@@ -78,7 +78,12 @@ could not create image from window
 (base) agungdm@Mrgaptex-Mac Praxis % screencapture -T 10 -P image.png
 (base) agungdm@Mrgaptex-Mac Praxis % screencapture -s -t pdf image.pdf
 (base) agungdm@Mrgaptex-Mac Praxis % ls
-Test-Akademik	blogpost.txt	image.pdf	praxis-academy	tasklist.txt                                                                                                                                                                                                            (base) agungdm@Mrgaptex-Mac Praxis % cat blogpost.txt 
+Test-Akademik	blogpost.txt	image.pdf	praxis-academy	tasklist.txt
+(base) agungdm@Mrgaptex-Mac Praxis % whatis mdfind
+mdfind(1)                - finds files matching a given query
+(base) agungdm@Mrgaptex-Mac Praxis % mdfind -onlyin ~/Belajar/Praxis *.txt 
+/Users/agungdm/Belajar/Praxis/praxis-academy/kemampuan-dasar/kemampuan-dasar-1/latihan/cmdline.txt
+(base) agungdm@Mrgaptex-Mac Praxis %                                                                                                                                                                                                             (base) agungdm@Mrgaptex-Mac Praxis % cat blogpost.txt 
 #checkout...%                                                                                                                                                                                                                                 (base) agungdm@Mrgaptex-Mac Praxis % diskutil
 Disk Utility Tool
 Utility to manage local disks and volumes
